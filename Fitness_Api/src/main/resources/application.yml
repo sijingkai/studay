@@ -1,0 +1,12 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: FitnessApi
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  profiles:
+    active: dev
+  main:
+    allow-bean-definition-overriding: true
